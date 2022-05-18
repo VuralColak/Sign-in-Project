@@ -23,6 +23,7 @@ button {
      background-color: red;
      color: white;
      border-radius: 3px;
+     font-size: larger;
  }
 
 .header h1 {
