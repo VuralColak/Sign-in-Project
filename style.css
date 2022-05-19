@@ -2,9 +2,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.logo {
+    display: inline-block;
+    margin-top: 20px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+.logop {
+    display: block;
+    margin-left: 67px;
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: -40px;
+}
+
 form {
     width: 400px;
-    margin-top: 30vh;
+    margin-top: 20vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -33,4 +49,34 @@ button {
 a {
     text-decoration: none;
     color: red;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    margin-top: 26vh;
+}
+
+.socialmedia {
+    margin-bottom: 35px;
+}
+
+.socialmedia a {
+    color: rgb(85, 83, 83);
+    font-weight: bold;
+}
+
+.copyright {
+    color: rgb(114, 111, 111);
+    font-size: small;
+}
+
+.help a {
+    font-weight: bold;
+}
+
+.help {
+    color: rgb(126, 123, 123);
+    font-size: smaller;
 }
